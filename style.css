@@ -42,7 +42,9 @@ body {
 	width:320px;
 	border:1px solid red;
 	border-radius:3%;
-	background-image:linear-gradient(to right bottom,orange,yellow);
+	background-image:linear-gradient(to right bottom,  #032550,
+        #1d93ad,
+        #79e7f5);
 	height:160px;
 	padding:20px;
 	box-sizing:border-box;
