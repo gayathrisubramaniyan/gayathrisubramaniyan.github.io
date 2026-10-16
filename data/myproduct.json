@@ -4,7 +4,7 @@
 "products":[{
              "product_id":10,
              "product_name":"Hoodie",
-             "imgSrc":"../Images/hoodie.jpg",
+             "imgSrc":"../Images/Hoodie.jpg",
              "price":750
              },
              {
