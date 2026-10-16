@@ -1,0 +1,241 @@
+[
+{
+"filter_id":1,
+"products":[{
+             "product_id":10,
+             "product_name":"Hoodie",
+             "imgSrc":"../images/hoodie.jpg",
+             "price":750
+             },
+             {
+             "product_id":11,
+             "product_name":"polo T-Shirt",
+             "imgSrc":"../images/Polo Tshirt.jpg",
+             "price":300
+             },
+             {
+             "product_id":12,
+             "product_name":"Shirt",
+             "imgSrc":"../images/Green shirt.jpg",
+             "price":850
+             },
+             {
+             "product_id":13,
+             "product_name":"Jean",
+             "imgSrc":"../images/denim jean.jpg",
+             "price":800
+             },
+             {
+             "product_id":14,
+             "product_name":"Shorts",
+             "imgSrc":"../images/shorts.jpg",
+             "price":300
+             },
+             {
+             "product_id":15,
+             "product_name":"Formal Pants",
+             "imgSrc":"../images/formal pants.jpg",
+             "price":700
+             }]
+ },
+ {
+ "filter_id":2,
+ "products":[{
+            "product_id":16,
+            "product_name":"Crop top",
+            "imgSrc":"../images/Women Crop top.jpg",
+            "price":450
+            },
+            {
+            "product_id":17,
+            "product_name":"Women Tshirt",
+            "imgSrc":"../images/Women polo tshirt.jpg",
+            "price":330
+            },
+            {
+            "product_id":18,
+            "product_name":"Women shirt",
+            "imgSrc":"../images/Women shirt.jpg",
+            "price":380
+            },
+            {
+            "product_id":19,
+            "product_name":"Formal Pants",
+            "imgSrc":"../images/womens Formal pants.jpg",
+            "price":700
+            },
+            {
+            "product_id":20,
+            "product_name":"Shorts",
+            "imgSrc":"../images/women shorts.jpg",
+            "price":385
+            },
+            {
+            "product_id":21,
+            "product_name":"Jean",
+            "imgSrc":"../images/women jean.jpg",
+            "price":1000
+            }]
+            
+ },
+ {
+ "filter_id":3,
+ "products":[{
+             "product_id":22,
+             "product_name":"Body Suits (Infant)",
+             "imgSrc":"../images/infant wear.jpg ",
+             "price":430
+             },
+             {
+             "product_id":23,
+             "product_name":"Baby Dress (Infant)",
+             "imgSrc":"../images/infant girl dress.jpg",
+             "price":500
+             },
+             {
+             "product_id":25,
+             "product_name":"Party wear Frock",
+             "imgSrc":"../images/Kids party wear.png",
+             "price":1200
+             },
+             {
+             "product_id":26,
+             "product_name":"Frock",
+             "imgSrc":"../images/kids frock.jpg",
+             "price":730
+             },
+            
+            {
+             "product_id":28,
+             "product_name":"Tshirt and Pants",
+             "imgSrc":"../images/kids tshirt.jpg",
+             "price":450
+             },
+             {
+             "product_id":29,
+             "product_name":"Tsirt and Shorts",
+             "imgSrc":"../images/kids tshirt and shorts.jpg",
+             "price":730
+             }
+             ]
+ },
+ {
+ "filter_id":4,
+ "products":[{
+              "product_id":31,
+              "product_name":"Television (4k OLED)",
+              "imgSrc":"../images/appliances TV.jpg",
+              "price":34500
+              },
+              {
+              "product_id":32,
+              "product_name":"Vaccum cleaner",
+              "imgSrc":"../images/appliances vaccum cleaner.jpg",
+              "price":12800
+              },
+              {
+              "product_id":33,
+              "product_name":"Smart Split Ac ",
+              "imgSrc":"../images/appliances AC.jpg",
+              "price":40900
+              },
+              {
+              "product_id":34,
+              "product_name":"Air Purifier",
+              "imgSrc":"../images/appliances air purifier.jpg",
+              "price":18030
+              },
+              {
+              "product_id":35,
+              "product_name":"OTG",
+              "imgSrc":"../images/appliances oven.jpg",
+              "price":5999
+              },
+              {
+              "product_id":36,
+              "product_name":"Food Processor",
+              "imgSrc":"../images/appliances food processor.jpg",
+              "price":14000
+              }]
+ },
+ {
+ "filter_id":5,
+ "products":[{
+              "product_id":37,
+              "product_name":"Leather Ball",
+              "imgSrc":"../images/sports Cricket ball.jpg",
+              "price":200
+              },
+              {
+              "product_id":38,
+              "product_name":"Football",
+              "imgSrc":"../images/sportsFootball.jpg",
+              "price":350
+              },
+              {
+              "product_id":39,
+              "product_name":"Volley Ball",
+              "imgSrc":"../images/Volley ball.jpg",
+              "price":800
+              },
+              {
+              "product_id":40,
+              "product_name":"Cricket Bat",
+              "imgSrc":"../images/sports cricket bat.jpg",
+              "price":23799
+              },
+              {
+              "product_id":41,
+              "product_name":"TT Bat and Ball",
+              "imgSrc":"../images/tabel tennis.jpg",
+              "price":1500
+              },
+              {
+              "product_id":42,
+              "product_name":"Batmition Bat",
+              "imgSrc":"../images/sports batmition.jpg",
+              "price":2000
+              }]
+ 
+},
+{
+ "filter_id":6,
+ "products":[{
+              "product_id":43,
+              "product_name":"Ink Pen",
+              "imgSrc":"../images/stationary ink pen.jpg",
+              "price":299
+              },
+              {
+              "product_id":44,
+              "product_name":"Paper Cutter",
+              "imgSrc":"../images/stationary cutter.jpg",
+              "price":150
+              },
+              {
+              "product_id":45,
+              "product_name":"Notes",
+              "imgSrc":"../images/stationary notes.jpg",
+              "price":500
+              },
+              {
+              "product_id":46,
+              "product_name":"Acralic Paints",
+              "imgSrc":"../images/stationary paint.jpg",
+              "price":600
+              },
+              {
+              "product_id":47,
+              "product_name":"Pen Holder",
+              "imgSrc":"../images/stationary pen holder.jpg",
+              "price":280
+              },
+              {
+              "product_id":48,
+              "product_name":"Scissors",
+              "imgSrc":"../images/stationary scissors.jpg",
+              "price":265
+              }]
+ 
+}
+]

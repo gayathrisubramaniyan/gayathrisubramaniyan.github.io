@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lil Mart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    
+         <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header class="top-header">
+        <h1>Lil Mart</h1>
+        <p>Everything you need in one place</p>
+    </header>
+
+<div class="wrapper">
+<nav class="navbar navbar-expand-md navbar-dark mart-navbar">
+
+<button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#myNavBar">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse justify-content-center" id="myNavBar">
+<ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+    </li>
+
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" href="#"> Clothes</a>
+        <div class="dropdown-menu">
+            <div class="dropdown-item" onclick="displayItems(1)" href="#">Men's Wear</div>
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-item" onclick="displayItems(2)" href="#">Women's Wear</div>
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-item" onclick="displayItems(3)" href="#">Kids' Wear</div>
+        </div>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" onclick="displayItems(4)" href="#">Home Appliances</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" onclick="displayItems(5)" href="#">Sports</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" onclick="displayItems(6)" href="#">Stationary</a></li>   
+    </li> 
+</ul>
+
+
+
+
+
+
+</div>
+</nav>
+
+<main class="main-content">
+<div class="myRow">
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+
+  <!-- The slideshow -->
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Images/home.png" alt="home">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/home page clothes.png" alt="clothes">
+    </div>
+  
+  
+    
+    <div class="carousel-item">
+      <img src="Images/home page appliances.jpg"  alt="Home appliances">
+    </div>
+
+    <div class="carousel-item">
+      <img src="Images/home page sports.png" alt="Sports equipments">
+    </div>
+
+    <div class="carousel-item">
+    <img src="Images/home page stationary.png" alt="Stationary">
+  </div>
+    
+  
+
+  <!-- Left and right controls -->
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+</div>
+</main>
+
+
+<!--Footer-->
+  <footer class="footer">
+    <div class="row align-items-center">
+            <div class="col-8">
+                <p>Lil Mart</p>
+            </div>
+            <div class="col-4 text-right">
+                <p>Email: lilmart0420@gmail.com</p>
+            </div>
+        </div>
+          </footer>
+    </div>
+    <div id="flexOutput"></div>
+    <div id="finalBill"></div>
+    <script src="js/Myapp.js"></script>
+</body>
+
+
+</html>
+
+
+
+

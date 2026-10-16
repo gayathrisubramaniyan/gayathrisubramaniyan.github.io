@@ -1,0 +1,357 @@
+
+/* Apply box sizing to every element */
+* {
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    #flexOutput
+{
+	padding:0px;
+}
+
+#flexContainer
+{
+	height:230px;
+	overflow-y:auto;
+	position:fixed;
+	top:0px;
+	right:10px;
+	display:flex;
+	flex-direction:column;
+	width:340px;
+	padding:0px;
+	box-sizing:border-box;
+	z-index:4;
+	
+}
+
+#flexContainer H2
+{
+	align-self:flex-start;
+	color:red;
+	margin:0px;
+	padding:0px;
+	width:320px;
+	
+}
+
+#flexContainer div
+{
+	width:320px;
+	border:1px solid red;
+	border-radius:3%;
+	background-image:linear-gradient(to right bottom,orange,yellow);
+	height:160px;
+	padding:20px;
+	box-sizing:border-box;
+	margin:0px;
+	
+}
+
+#flexContainer hr
+{
+	margin:0px;
+	padding:0px;
+}
+
+#flexContainer button
+{
+	float:right;
+	margin:auto 5px auto auto;
+}
+
+#flexContainer #buttons
+{
+	padding:0px;
+	height:auto;
+}
+
+
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("/Images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header */
+.top-header {
+    min-height: 180px;
+    padding: 35px 30px;
+    text-align: center;
+    color: white;
+
+    background: linear-gradient(
+        to right,
+        #032550,
+        #1d93ad,
+        #79e7f5
+    );
+
+    border-bottom: 2px solid #032550;
+}
+
+.top-header h1 {
+    margin: 0;
+}
+
+/* Main page container */
+.wrapper {
+    max-width: 960px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+/* Navbar: custom Lil Mart brand colours */
+.mart-navbar {
+    background-color: #032550;
+    border: 2px solid #1d93ad;
+}
+
+.mart-navbar .nav-link {
+    color: white;
+}
+
+.mart-navbar .nav-link:hover {
+    color: #79e7f5;
+}
+
+/* Dropdown styling */
+.mart-navbar .dropdown-menu {
+    background-color: white;
+    border: 1px solid #1d93ad;
+}
+
+.mart-navbar .dropdown-item:hover {
+    background-color: #f4f7f8;
+    color: #032550;
+}
+
+/* Main content area */
+.main-content {
+    min-height: 540px;
+    padding: 20px;
+    background-color: #b7d7e8;
+    border: 2px solid #1d93ad;
+    border-top: 0;
+}
+
+/* Carousel image */
+.carousel-inner img {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    margin: auto;
+}
+
+/* Footer */
+.footer {
+    padding: 15px 20px;
+    color: white;
+
+    background: linear-gradient(
+        to right,
+        #032550,
+        #1d93ad,
+        #79e7f5
+    );
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+    .wrapper {
+        margin: 15px auto;
+    }
+
+    .top-header {
+        min-height: 140px;
+        padding: 25px 15px;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+}
+#finalBill
+{
+	padding:0px;
+	width:550px;
+	overflow-x:auto;
+	border-radius:3%;
+	box-sizing:border-box;
+	height:560px;
+	overflow-y:auto;
+	position:fixed;
+    top:10px;
+    left:350px;
+    z-index:5;
+    display:none;	
+	
+}
+
+#finalBill #bankInfo
+{
+	width:530px;
+	height:215px;
+	overflow-x:auto;
+	display:none;
+	padding:10px;
+	box-sizing:border-box;
+	border:1px solid black;
+	border-radius:3%;
+	margin:auto;
+}
+
+#bankInfo img
+{
+	width:30px;
+	margin:auto auto auto 15px;
+}
+
+
+#finalBill #billTable
+{
+	width:530px;
+	height:310px;
+	overflow-x:auto;
+	background-color:#870707;
+	border-radius:3%;
+    padding:30px;
+    overflow-y:auto;
+    border:1px solid white;
+    box-sizing:border-box;
+    margin:auto;
+    
+}
+
+#finalBill h2
+{
+	margin:auto;
+	padding:0px;
+	color:white;
+	
+}
+
+#bankInfo input[type="text"]
+{
+	border-radius:4px;
+	border:1px solid black;
+}
+
+#bankInfo input[type="password"]
+{
+	border-radius:4px;
+}
+
+.table-product-heading
+{
+	width:140px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+.table-items-heading
+{
+	width:50px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+.table-product-content
+{
+	width:140px;
+	height:140px;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.table-product-items
+{
+	width:50px;
+	height:140px;
+	text-align:center;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+}
+
+.table-product-total
+{
+	width:70px;
+	padding:20px;
+	text-align:center;
+	height:140px;
+	box-sizing:border-box;
+	color:white;
+}
+
+.table-total-heading
+{
+	width:70px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+#billTable table
+{
+	width:310px;
+	height:auto;
+	margin:auto;
+	border:1px solid white;
+	border-collapse:collapse;
+}
+#billTable th,td
+{
+	color:white;
+	border:1px solid white;
+	font-weight:600;
+}
+
+#finalBill #buttons2
+{
+	width:530px;
+	overflow-x:auto;
+	height:50px;
+	padding:0px 10px 0px 10px;
+	box-sizing:border-box;
+	
+}
+
+#buttons2 #backToCart
+{
+	float:left;
+	margin:0px auto 0px 10px;
+	height:50px;
+}
+
+#buttons2 #pay
+{
+	float:right;
+	margin:0px 10px 0px auto;
+	height:50px;
+}
+#bankInfo img
+{
+	width:30px;
+	margin:auto auto auto 15px;
+}
